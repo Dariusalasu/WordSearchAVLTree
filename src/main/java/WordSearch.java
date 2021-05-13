@@ -32,7 +32,7 @@ public class WordSearch extends Application {
 
             String input = scanner.nextLine();
             while(!input.equals("#")) {
-                String regex = "[1-9][0-9]*";
+                String regex = "-?[0-9]*";
                 Node<String> mNode;
                 if(Pattern.matches(regex, input)) {
                     if((mNode = mTreeByNumber.findKey(input)) != null) {
