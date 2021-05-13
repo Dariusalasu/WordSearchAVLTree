@@ -53,7 +53,7 @@ public class WordSearch extends Application {
                 System.out.println("\nEnter another number or word or # to close");
                 input = scanner.nextLine();
             }
-            System.out.println("Thank you for using the word list!");
+            System.out.println("Thank you for using the AVL Word Search!");
 
         }catch(Exception e) {
             e.printStackTrace();
